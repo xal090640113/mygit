@@ -1,0 +1,12 @@
+#设置提供的服务名
+spring:
+  application:
+    name: xal-server1
+#服务注册中心地址（刚刚搭建的Eureka Server的地址）
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
+#设置自己启动的端口
+server:
+  port:  9993
