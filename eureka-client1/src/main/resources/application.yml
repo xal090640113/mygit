@@ -11,7 +11,7 @@ spring:
 eureka:
   client:
     #是否向服务中心注册自己
-    register-with-eureka: false
+    register-with-eureka: true
     #设置eureka服务中心的地址
     service-url:
       defaultZone: http://localhost:8888/eureka
